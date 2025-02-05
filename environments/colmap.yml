@@ -1,0 +1,7 @@
+name: colmap
+channels:
+  - default
+  - conda-forge
+dependencies:
+  - colmap
+  - imagemagick
