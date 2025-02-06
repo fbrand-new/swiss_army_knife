@@ -1,0 +1,6 @@
+name: ffmpeg
+channels:
+  - default
+  - conda-forge
+dependencies:
+  - ffmpeg
