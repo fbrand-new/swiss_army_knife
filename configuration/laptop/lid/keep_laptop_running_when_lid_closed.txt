@@ -1,0 +1,10 @@
+# Works in ubuntu22.04
+sudo vim /etc/systemd/logind.conf
+
+# Add
+HandleLidSwitch=ignore
+HandleLidSwitchDocked=ignore
+
+# Then
+sudo reboot
+
